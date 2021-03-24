@@ -18,7 +18,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    max-width: 400px;
+    margin: auto;
     
 }
 header {
@@ -57,7 +58,7 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 100vw;
+    width: 1000px;
 }
 
 .top h1 {
@@ -76,13 +77,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
 }
 
 .middle h2{
     font-size: 28px;
     padding-top: 30px;
     font-weight: 600;
-   
 }
 
 .features {
@@ -115,10 +116,6 @@ header {
     font-size: 18px;
 }
 
-.ft-describe {
-    display: flex;
-}
-
 .bt-left {
     width: 50%;
     margin: 40px 10px 0 60px  ;
@@ -131,7 +128,7 @@ header {
     background-color: #00B172;
     
     margin: 20px;
-    width: 95%;
+    width: 1000px;
 }
 .bt-middle img {
     width: 100px;
